@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Expiry Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Food Expiry Tracker</h1>
+    </header>
+
+    <main>
+        <section id="add-item">
+            <h2>Add Grocery Item</h2>
+            <form id="grocery-form">
+                <input type="text" id="item-name" placeholder="Item Name" required>
+                <input type="date" id="expiry-date" required>
+                <button type="submit">Add Item</button>
+            </form>
+        </section>
+
+        <section id="expiry-list">
+            <h2>Your Groceries</h2>
+            <ul id="items-list">
+                <!-- Items will be dynamically added here -->
+            </ul>
+        </section>
+
+        <section id="recipe-section">
+            <h2>Suggested Recipes</h2>
+            <ul id="recipe-list">
+                <!-- Recipes will be dynamically loaded here -->
+            </ul>
+        </section>
+    </main>
+
+    <audio id="alarm-sound" src="alarm.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
