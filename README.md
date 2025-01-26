@@ -91,7 +91,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-https://drive.google.com/file/d/14XiqlcW9xhtOorx97GrLWTDMZ3SwL2fU/view?usp=sharing
+https://drive.google.com/file/d/14XiqlcW9xhtOorx97GrLWTDMZ3SwL2fU/view?usp=drive_link
 
 *Explain what the video demonstrates*
 
