@@ -99,9 +99,9 @@ https://drive.google.com/file/d/14XiqlcW9xhtOorx97GrLWTDMZ3SwL2fU/view?usp=drive
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Anju Krishna S B]: [html]
+- [Abhinandhana]: [CSS]
+- [Arya R]: [javascript]
 
 ---
 Made with ❤️ at TinkerHub
