@@ -1,0 +1,117 @@
+/* Background Image */
+.background {
+    background-image: url('https://drive.google.com/uc?id=11WsVKaW7BV6UW7kjVwlGD6c2Cm_UIKyh');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Content Styling */
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Input Form Styling */
+.input-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.input-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.input-form button:hover {
+    background-color: #45a049;
+}
+
+/* Food Item List Styling */
+#food-items {
+    list-style: none;
+    padding: 0;
+}
+
+#food-items li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.normal {
+    background-color: #f1f1f1;
+}
+
+/* Recipe Suggestion List Styling */
+#recipe-suggestions ul {
+    list-style: none;
+    padding: 0;
+}
+
+#recipe-suggestions li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Funny Facts Section */
+#funny-facts {
+    margin-top: 40px;
+}
+
+.fact-bar {
+    background-color: #FF9800;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fact-title {
+    font-size: 1.5em;
+}
+
+button:hover {
+    background-color: #ff8c00;
+}
