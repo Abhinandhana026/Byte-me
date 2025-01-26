@@ -9,6 +9,7 @@
     align-items: center;
     color: white;
     font-family: Arial, sans-serif;
+    
 }
 
 /* Content Styling */
@@ -37,23 +38,26 @@ h1 {
 .input-form input {
     padding: 10px;
     margin-right: 10px;
-    border: none;
-    border-radius: 5px;
+    border:2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1em;
+    transform: all 0.3s ease;
 }
 
 .input-form button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #34926c;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1em;
     cursor: pointer;
 }
 
 .input-form button:hover {
-    background-color: #45a049;
+    background-color: #0e686d;
 }
 
 /* Food Item List Styling */
@@ -73,10 +77,12 @@ h1 {
 }
 
 .yellow {
+    color: black;
     background-color: yellow;
 }
 
 .normal {
+    color: black;
     background-color: #f1f1f1;
 }
 
@@ -97,21 +103,32 @@ h1 {
 /* Funny Facts Section */
 #funny-facts {
     margin-top: 40px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .fact-bar {
-    background-color: #FF9800;
+    background-color: #34926c;
     padding: 10px;
-    border-radius: 5px;
+    text-align: center;
+    font-family:cursive;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 #fact-title {
     font-size: 1.5em;
+    color: #F5F5DC;
 }
-
+button{
+    border-radius: 50px;
+    background-color:#98FB98;
+}
 button:hover {
-    background-color: #ff8c00;
+    background-color: #27ba58;
+    colour:rgb(22, 229, 22);
+    transform: scale(1.05);
 }
